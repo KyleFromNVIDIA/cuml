@@ -93,7 +93,7 @@ repos:
       rev: v1.17.1
       hooks:
           - id: rapids-dependency-file-generator
-            args: ["--clean"]
+            args: ["--clean", "--warn-all", "--strict"]
     - repo: https://github.com/shellcheck-py/shellcheck-py
       rev: v0.10.0.1
       hooks:
